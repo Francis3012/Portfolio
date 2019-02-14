@@ -1,23 +1,19 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "My Portfolio Francis Clark",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "Portfolio",
-    "YelpCamp",
-    "Blog",
-    "Patatap"
-  ],
-  "author": "Francis Clark",
-  "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^3.3.5",
-    "ejs": "^2.6.1",
-    "express": "^4.16.4",
-    "jquery": "^2.1.3"
-  }
+	"name": "portfolio",
+	"version": "1.0.0",
+	"description": "My Portfolio Francis Clark",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node app.js"
+	},
+	"keywords": [ "Portfolio", "YelpCamp", "Blog", "Patatap" ],
+	"author": "Francis Clark",
+	"license": "ISC",
+	"dependencies": {
+		"bootstrap": "^3.3.5",
+		"ejs": "^2.6.1",
+		"express": "^4.16.4",
+		"jquery": "^2.1.3"
+	}
 }
