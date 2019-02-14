@@ -13,5 +13,11 @@
     "Patatap"
   ],
   "author": "Francis Clark",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "jquery": "^2.1.3"
+  }
 }
