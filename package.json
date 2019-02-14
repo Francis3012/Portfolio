@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio Francis Clark",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Portfolio",
+    "YelpCamp",
+    "Blog",
+    "Patatap"
+  ],
+  "author": "Francis Clark",
+  "license": "ISC"
+}
