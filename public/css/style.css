@@ -61,7 +61,7 @@ body {
 	width: 100%;
 	height: 800px;
 	margin: 0;
-	background-image: url(https://pixabay.com/get/ec3cb20c2af31c22d2524518b7444795ea76e5d004b0144495f1c779afe5b3_340.jpg);
+	background-image: url(/img/workspace.png);
 }
 
 .jumbotron .container {
@@ -108,7 +108,7 @@ section .container {
 }
 
 section#portfolio {
-	background-image: url(https://pixabay.com/get/e837b1092cfc013ed1584d05fb1d4e97e07ee3d21cac104490f0c07fa6edb5b1_340.jpg);
+	background-image: url(/img/circuit.png);
 }
 
 section#portfolio .container h1,
