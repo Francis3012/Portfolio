@@ -1,9 +1,7 @@
 $(document).ready(function() {
-	// Add smooth scrolling to all links in navbar + footer link
 	$(".navbar a, footer a[href='#home']").on('click', function(event) {
 		event.preventDefault();
 
-		// Store hash
 		var hash = this.hash;
 
 		// Using jQuery's animate() method to add smooth page scroll

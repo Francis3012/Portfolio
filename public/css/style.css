@@ -10,68 +10,6 @@ body {
 	color: grey;
 }
 
-@media (min-width: 768px) {
-	html,
-	body {
-		/* for jumbotron */
-		height: 100%;
-	}
-}
-
-#wrapper {
-	padding-right: 0;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-}
-
-#wrapper.toggled {
-	padding-right: 250px;
-}
-
-#nav-side-wrapper {
-	z-index: 1000;
-	position: fixed;
-	right: 250px;
-	width: 0;
-	height: 100%;
-	margin-right: -250px;
-	overflow-y: auto;
-	background: #000;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-}
-
-#wrapper.toggled #nav-side-wrapper {
-	width: 250px;
-}
-
-#content-wrapper {
-	width: 100%;
-	position: absolute;
-}
-
-#wrapper.toggled #content-wrapper {
-	position: absolute;
-	margin-left: -250px;
-}
-
-.nav-side {
-	position: absolute;
-	top: 0;
-	width: 250px;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-.nav-side li {
-	line-height: 40px;
-}
-
 .navbar {
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -107,36 +45,21 @@ body {
 	font-size: 16px;
 	margin-top: 0;
 	margin-bottom: 0;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	transition: all 0.3s ease;
+	-webkit-transition: all 0.7s ease;
+	-moz-transition: all 0.7s ease;
+	-o-transition: all 0.7s ease;
+	transition: all 0.7s ease;
 }
 
 @media (min-width: 768px) {
-	#wrapper {
-		padding-right: 250px;
-	}
-	#wrapper.toggled {
-		padding-right: 0;
-	}
-	#nav-side-wrapper {
-		width: 0;
-	}
-	#wrapper.toggled #nav-side-wrapper {
-		width: 250px;
-	}
 	#content-wrapper {
 		position: relative;
-	}
-	#wrapper.toggled #content-wrapper {
-		position: relative;
-		margin-left: 0;
 	}
 }
 
 .jumbotron {
 	width: 100%;
+	height: 800px;
 	margin: 0;
 	background-image: url(https://pixabay.com/get/ec3cb20c2af31c22d2524518b7444795ea76e5d004b0144495f1c779afe5b3_340.jpg);
 }
@@ -147,16 +70,14 @@ body {
 }
 
 .jumbotron .container h1 {
-	text-shadow: 1px 3px 8px rgba(0, 0, 0, 0.8);
-}
-
-.jumbotron .container h3 {
-	text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
-	font-family: 'Courgette', cursive;
+	text-shadow: 1px 3px 8px rgba(0, 0, 0, 1.8);
+	margin-top: 4em;
 }
 
 .jumbotron .container p {
 	margin-top: 30px;
+	text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
+	font-family: 'Courgette', cursive;
 }
 
 .jumbotron .container .btn {
@@ -210,17 +131,6 @@ section#contact .glyphicon {
 	padding-right: 8px;
 }
 
-#form-feedback {
-	color: #1abc9c;
-	opacity: 0;
-	margin: 5px;
-	margin-right: 80px;
-	-webkit-transition: all .5s ease-out;
-	-moz-transition: all .5s ease-out;
-	-o-transition: all .5s ease-out;
-	transition: all .5s ease-out;
-}
-
 .bgd {
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -235,15 +145,15 @@ section#contact .glyphicon {
 }
 /* unused shadowing between sections, caused lag */
 .shadow {
-	-webkit-box-shadow: inset 0 100px 100px -100px rgba(0, 0, 0, 0.8), inset 0 -100px 100px -100px rgba(0, 0, 0, 0.8);
-	-moz-box-shadow: inset 0 100px 100px -100px rgba(0, 0, 0, 0.8), inset 0 -100px 100px -100px rgba(0, 0, 0, 0.8);
-	box-shadow: inset 0 100px 100px -100px rgba(0, 0, 0, 0.8), inset 0 -100px 100px -100px rgba(0, 0, 0, 0.8);
+	-webkit-box-shadow: inset 0 100px 100px -100px rgba(0, 0, 0, 2.2), inset 0 -100px 100px -100px rgba(0, 0, 0, 2.2);
+	-moz-box-shadow: inset 0 100px 100px -100px rgba(0, 0, 0, 2.2), inset 0 -100px 100px -100px rgba(0, 0, 0, 2.2);
+	box-shadow: inset 0 100px 100px -100px rgba(0, 0, 0, 2.2), inset 0 -100px 100px -100px rgba(0, 0, 0, 2.2);
 }
 
 .shadow:first-of-type {
-	-webkit-box-shadow: inset 0 -100px 100px -100px rgba(0, 0, 0, 0.8);
-	-moz-box-shadow: inset 0 -100px 100px -100px rgba(0, 0, 0, 0.8);
-	box-shadow: inset 0 -100px 100px -100px rgba(0, 0, 0, 0.8);
+	-webkit-box-shadow: inset 0 -100px 100px -100px rgba(0, 0, 0, 2.2);
+	-moz-box-shadow: inset 0 -100px 100px -100px rgba(0, 0, 0, 2.2);
+	box-shadow: inset 0 -100px 100px -100px rgba(0, 0, 0, 2.2);
 }
 
 .row {
@@ -299,7 +209,8 @@ a.top:hover {
 	transform: translate(0, -20px);
 }
 
-.thumbnail {
+.card {
+	width: 18rem;
 	padding: 0 0 15px 0;
 	margin: 15px;
 	-webkit-box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.5);
@@ -307,7 +218,7 @@ a.top:hover {
 	box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.5);
 }
 
-.thumbnail img {
+.card img {
 	width: 100%;
 	height: 200px;
 	margin-bottom: 10px;
