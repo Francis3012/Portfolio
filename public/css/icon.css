@@ -17,8 +17,31 @@
   height: 100%;
   width: 100%;
   transition: background 0.5s ease;
-  background: #1abc9c;
   border-radius: 50%;
+  animation: head 5s infinite;
+}
+.head:hover .eye::after {
+  animation: head 5s infinite;
+}
+@keyframes head {
+  0% {
+    background: #0000ff;
+  }
+  20% {
+    background: #ff8000;
+  }
+  40% {
+    background: #ff0000;
+  }
+  60% {
+    background: #8000ff;
+  }
+  80% {
+    background: #1d7272;
+  }
+  100% {
+    background: #0000ff;
+  }
 }
 .ear {
   position: absolute;
@@ -78,7 +101,7 @@
   height: 0;
   width: 100%;
   border-radius: 0 0 50% 50% / 60% 60% 40% 30%;
-  background: #1abc9c;
+  background: #161616;
   animation: blink 4s infinite ease-in;
 }
 @keyframes blink {
