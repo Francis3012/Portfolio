@@ -247,17 +247,17 @@ a.item.green {
 a.item.green i {
 	color: #16a085;
 }
-a.item.blue {
+a.item.gray {
 	background-color: #34495e;
   }
-a.item.blue i {
+a.item.gray i {
 	color: #34495e;
 }
-a.item.red {
-	background-color: #e74c3c;
+a.item.blue {
+	background-color: #2ec9ff;
 }
-a.item.red i {
-	color: #e74c3c;
+a.item.blue i {
+	color: #2ec9ff;
 }
 
 a.item:hover img {
