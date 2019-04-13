@@ -11,7 +11,6 @@
 		"Portfolio",
 		"YelpCamp",
 		"Blog",
-		"Patatap"
 	],
 	"author": "Francis Clark",
 	"license": "ISC",
@@ -20,6 +19,6 @@
 		"ejs": "^2.6.1",
 		"express": "^4.16.4",
 		"jquery": "^3.3.1",
-		"popper.js": "^1.14.7"
+		"popper.js": "^1.15.0"
 	}
 }
